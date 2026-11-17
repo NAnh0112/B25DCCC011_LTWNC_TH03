@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: #111;
+  background: #fafafa;
+}
+
+a {
+  color: inherit;
+}
+
+.space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+.space-y-6 > * + * {
+  margin-top: 1.5rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
+.border {
+  border: 1px solid #ccc;
+}
+
+.border-t {
+  border-top: 1px solid #ddd;
+}
+
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.block {
+  display: block;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-red-500,
+.text-red-600 {
+  color: #dc2626;
+}
+
+.text-green-600 {
+  color: #16a34a;
+}
+
+.bg-blue-600 {
+  background: #2563eb;
+  color: #fff;
+}
+
+.bg-gray-100 {
+  background: #f3f4f6;
+}
+
+.bg-gray-800 {
+  background: #1f2937;
+  color: #fff;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
+}

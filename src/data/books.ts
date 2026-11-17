@@ -1,0 +1,68 @@
+import type { Book } from '@/types';
+
+export const books: Book[] = [
+  {
+    id: 1,
+    title: 'Lập trình C căn bản',
+    author: 'Nguyễn Văn A',
+    category: 'Lập trình',
+    stock: 1,
+    description: 'Nhập môn ngôn ngữ C cho sinh viên năm nhất.',
+  },
+  {
+    id: 2,
+    title: 'Thiết kế cơ sở dữ liệu',
+    author: 'Trần Thị B',
+    category: 'Cơ sở dữ liệu',
+    stock: 5,
+    description: 'Mô hình quan hệ, chuẩn hóa và SQL thực hành.',
+  },
+  {
+    id: 3,
+    title: 'Cấu trúc dữ liệu và giải thuật',
+    author: 'Lê Văn C',
+    category: 'Thuật toán',
+    stock: 3,
+    description: 'Danh sách, cây, đồ thị và độ phức tạp.',
+  },
+  {
+    id: 4,
+    title: 'Mạng máy tính',
+    author: 'Phạm D',
+    category: 'Mạng',
+    stock: 2,
+    description: 'TCP/IP, định tuyến và ứng dụng mạng.',
+  },
+  {
+    id: 5,
+    title: 'Hệ điều hành',
+    author: 'Hoàng E',
+    category: 'Hệ thống',
+    stock: 2,
+    description: 'Tiến trình, bộ nhớ và hệ thống tệp.',
+  },
+  {
+    id: 6,
+    title: 'An toàn mạng',
+    author: 'Vũ F',
+    category: 'Bảo mật',
+    stock: 1,
+    description: 'Mã hóa, tường lửa và phòng chống xâm nhập.',
+  },
+  {
+    id: 7,
+    title: 'Phát triển Web với React',
+    author: 'Đỗ G',
+    category: 'Web',
+    stock: 4,
+    description: 'Component, hook và ứng dụng fullstack.',
+  },
+  {
+    id: 8,
+    title: 'Trí tuệ nhân tạo nhập môn',
+    author: 'Bùi H',
+    category: 'AI',
+    stock: 2,
+    description: 'Tìm kiếm, học máy cơ bản và ứng dụng.',
+  },
+];
